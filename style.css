@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 body {
@@ -37,3 +37,34 @@ border: 1px solid #FFD24B;
 background: #F0B80D;
 padding: 16px 32px;
     }
+.hero-people {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+background: #F6FBF8;
+box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.08);
+backdrop-filter: blur(2px);
+width: 577px;
+padding: 24px;
+gap: 24px;
+margin-top: 20px;
+}
+.people-text h3 {
+    color: #000;
+font-size: 16px;
+font-weight: 500;
+}
+.people-text p {
+    padding-top: 10px;
+    color: #515151;
+font-size: 16px;
+font-weight: 500;
+}
+.peoples {
+    margin-top: 60px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
